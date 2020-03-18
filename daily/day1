@@ -1,0 +1,9 @@
+1.border设置问题
+    问题：采用圣杯布局时，header、footer和container都使用了100%的宽度，在给H和F设置边框线后，div宽度超过了C两倍边框线宽
+    解决：使用 box-sizing:border-box 使得计算DIV宽度时把边框线宽度也计算进去，使HFC三者成功对齐
+2.padding的设置方法
+    解决：padding：x x x x 是按照上右下左的顺序进行设置，或者x x 是按照上下、左右
+3.圣杯布局的一种方法
+    解决：采用container包裹3个column（center,left,right，该种方法center放在最前，left和right依次，column设置相对定位position：relative，设置container的padding分别为left和right的宽度，给二者空出距离。而后设置left负外边距margin-left:100%以及right：200px使得left位于之前预留的位置上，同时设置right的margin-right:-150px，footer清除浮动（因为container未设置高度），得到最终效果图。
+4.此项目的目的
+    问题：一开始只是想简单练手，目前打算建立一个博客，似乎使用模板管理更方便，等待探究
