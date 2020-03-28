@@ -6,4 +6,4 @@
 3.圣杯布局的一种方法
     解决：采用container包裹3个column（center,left,right，该种方法center放在最前，left和right依次，column设置相对定位position：relative，设置container的padding分别为left和right的宽度，给二者空出距离。而后设置left负外边距margin-left:100%以及right：200px使得left位于之前预留的位置上，同时设置right的margin-right:-150px，footer清除浮动（因为container未设置高度），得到最终效果图。
 4.此项目的目的
-    问题：一开始只是想简单练手，目前打算建立一个博客，似乎使用模板管理更方便，等待探究
+    问题：一开始只是想简单练手，纯自己写一个博客，但眉头一皱发现事情没有那么简单，似乎使用模板管理更方便，等待探究
