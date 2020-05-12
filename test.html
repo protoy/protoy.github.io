@@ -1,30 +1,45 @@
-<!DOCTYPE html> 
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Protoy's First Website</title> 
-        <style>
-            body{
-                background-color: silver;
-            }
-            .A{
-                height: 200px;
-                background-color: blue;
-                border:5px solid springgreen;
-                width: 100%;
-            }
-            .B{
-                height: 200px;
-                background-color: red;
-                width: 100%;
-            }
-            .column{
-                box-sizing: border-box;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="A column"></div>
-        <div class="B column"></div>
-    </body>
-</html> 
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>系好安全带,准备启航</title>
+
+    <script type="text/javascript">
+        document.write("aaaaaa");
+        //通过javascript的日期对象来得到当前的日期，并输出。
+        var date = new Date();
+        var weekday = ["星期天",
+            "星期一",
+            "星期二",
+            "星期三",
+            "星期四",
+            "星期五",
+            "星期六"
+        ];
+        document.write(
+            date.getFullYear() + "年" +
+            (date.getMonth()+1) + "月" +
+            date.getDate() + "日" +
+            weekday[date.getDay()] + "<br/>"
+        );
+
+        //成绩是一长窜的字符串不好处理，找规律后分割放到数组里更好操作哦
+        var scoreStr = "小明:87;小花:81;小红:97;小天:76;小张:74;小小:94;小西:90;小伍:76;小迪:64;小曼:76";
+        var scoreArr = scoreStr.split(";");
+        var sum = 0;
+        //从数组中将成绩撮出来，然后求和取整，并输出。
+        for (var i = 0; i < scoreArr.length; ++i) {
+            var sum = sum + parseInt(scoreArr[i].slice(3));
+            console.log(scoreArr[i]);
+        }
+        document.write("pingjunf");
+        document.write("成绩平均分为：" + sum /scoreArr.length);
+    </script>
+</head>
+
+<body>
+    <div>document.write</div>
+</body>
+
+</html>
