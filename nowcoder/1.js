@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script>
         var num = 6;
         var cub = num * num * num;
         var arr = new Array();
@@ -19,11 +11,3 @@
         if (sum === cub) {
             console.log(arr.join('+'));
         }
-    </script>
-</head>
-
-<body>
-
-</body>
-
-</html>

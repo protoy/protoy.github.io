@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script>
         line = ")%m$*@inq%acimi%uoureq*qwja#ka^gopp@@*&wbw@%s@&kx(ogv)nkjhvpadso)%yqbtreyug`vsdczb+ezs$itja)yy+z`+z@c(%aweq$@vua(yqbs^)ty&ixn*fgohp^)bt_pl)atcn&ykir#)%fybccmfq!t)b^c)+z_bxrf_(cq&e+dp*litx@qyoljb@ik&gswrcxfpsrt^!tnzu+aa*dbw^lwqbvtems@s&ry_bkn)t)i&$gcs$tgkm(@dae%c`&#&g+oi*^mz^wps!l#eql`pn@if";
         var str = line.split('');
         var count = 0;
@@ -19,11 +11,3 @@
             }
         }
         console.log(res.length);
-    </script>
-</head>
-
-<body>
-
-</body>
-
-</html>

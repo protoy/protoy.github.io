@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script>
         line="9876673";
         var arr = line.split('').reverse();
         var res = new Array;
@@ -17,11 +9,3 @@
             }
         }
         console.log(res.join(''));
-    </script>
-</head>
-
-<body>
-
-</body>
-
-</html>

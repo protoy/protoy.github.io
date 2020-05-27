@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script>
         var input = 54;
 
         var middle = Math.floor(input / 2);
@@ -30,11 +22,3 @@
             }
             return true;
         }
-    </script>
-</head>
-
-<body>
-
-</body>
-
-</html>

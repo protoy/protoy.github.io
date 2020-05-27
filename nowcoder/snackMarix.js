@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script>
         var N = 4;
         var arr = new Array();
         for (var i = 0; i < N; i++) {
@@ -26,11 +18,3 @@
         for(i = 0; i< N; i++){
             console.log(arr[i].join(' '));
         }
-    </script>
-</head>
-
-<body>
-
-</body>
-
-</html>

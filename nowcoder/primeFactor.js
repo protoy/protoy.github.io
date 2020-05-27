@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script>
         var num = 180;
         var res = '';
         for(var i=2; i<Math.sqrt(num); i++){
@@ -18,9 +11,3 @@
             res += num + ' ';
         }
         console.log(res);
-    </script>
-</head>
-<body>
-    
-</body>
-</html>

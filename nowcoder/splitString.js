@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script>
         var cin1 = 'abc';
         var cin2 = '123456789';
 
@@ -23,11 +15,3 @@
         if (cin2.length > 0) {
             console.log((cin2 + '00000000').substr(0, 8));
         }
-    </script>
-</head>
-
-<body>
-
-</body>
-
-</html>
